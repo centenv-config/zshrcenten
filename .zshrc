@@ -96,11 +96,12 @@ source $ZSH/oh-my-zsh.sh
 # Compilation flags
 # export ARCHFLAGS="-arch $(uname -m)"
 
-# Load plugins
+# Plugins
 # zsh-autosuggestions
 source $HOME/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # zsh-autocompletion
-source $HOME/.zsh/zsh-autocompletion/zsh-autocomplete.plugin.zsh
+# source $HOME/.zsh/zsh-autocompletion/zsh-autocomplete.plugin.zsh
+# export ZSH_AUTOCCOMPLETE_MAX_LINES=10
 
 # Startup Programs. Runs the commands/programs on the start of a new zsh session
 # fastfetch: prints the system information
